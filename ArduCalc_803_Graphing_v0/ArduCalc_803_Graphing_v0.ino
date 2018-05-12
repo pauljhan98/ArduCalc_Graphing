@@ -8,7 +8,7 @@
 
 #define TFT_DC 9
 #define TFT_CS 10
-
+//minor change
 // Use Arduino's hardware SPI (uses pins 11,12,13) and TFT_DC / TFT_CS for DC/CS
 Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC);
 Adafruit_ILI9341 *tft_point = &tft;
